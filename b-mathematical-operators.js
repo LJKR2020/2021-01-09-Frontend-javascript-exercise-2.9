@@ -23,14 +23,14 @@ console.log(outcome2);
 // ==========================================
 // 3. Declareer een variabele en sla daar de uitkomst van 4 + 3 in op, vermenigvuldigd met 7.       // geeft 49
 // ==========================================
-const outcome3 = (4 + 3) * 7
+const outcome3 = (4 + 3) * 7;
 console.log(outcome3);
 
 
 // ==========================================
 // 4. Declareer een variabele en sla daar de uitkomst van 36 gedeeld door 6, maal 2 in op.          // geeft 12
 // ==========================================
-const outcome4 = (36/6) * 2;
+const outcome4 = (36 / 6) * 2;
 console.log(outcome4);
 
 // ==========================================
@@ -40,15 +40,15 @@ console.log(outcome4);
 const zoet = "zoet";
 const sappig = "sappig";
 const totaal = zoet + sappig;
-console.log(totaal);
+console.log("Wanneer je", zoet, "en", sappig, "achter elkaar plakt krijg je", totaal);
 
 // ==========================================
 // 6. Declareer een variabele voor jouw voornaam en een variabele voor jouw achternaam en zet de waardes erin.
 // Declareer vervolgens een variabele voor jouw volledige naam en plak bovenstaande variabelen aan elkaar.
 // Zorg dat er een spatie tussen zit zonder iets aan de originele variabelen te veranderen.        // geeft bijv. 'Henk Pieters'
 // ==========================================
-const voornaam = "Loredana";
-const achternaam = "Kraamer";
+const voornaam = "L";
+const achternaam = "K";
 const volledigeNaam = voornaam + " " + achternaam;
 console.log(volledigeNaam);
 
